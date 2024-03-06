@@ -1,3 +1,7 @@
+@font-face{
+  font-family: GothamLight;
+  src: url('./Font/GothamLight.ttf');
+}
 * {
   /* max-width: 900px; */
   margin-left: auto;
@@ -6,6 +10,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 30px;
+  font-family: GothamLight;
 }
 #CardContainer {
   width: 1070px;
@@ -13,6 +18,7 @@ body {
 }
 .title {
   font-size: 48px;
+  font-weight: 800;
   text-align: center;
 }
 
@@ -185,6 +191,7 @@ img {
 }
 .cardTitle4 {
   text-align: center;
+ 
 }
 #card4Des {
   display: none;
@@ -199,12 +206,9 @@ img {
 
 }
 #cardFour:hover #card4Des{
-  /* display: block; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-
-
- 
  
 }

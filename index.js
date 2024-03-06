@@ -35,12 +35,3 @@ function card4() {
 card4();
 
 
-// const card4Des = document.getElementById('cardFour')
-
-// card4Des.addEventListener('mouseover', function() {
-//   card4Des.classList.add('card4Des');
-// });
-
-// card4Des.addEventListener('mouseout', function() {
-//   card4Des.classList.remove('card4Des');
-// });
