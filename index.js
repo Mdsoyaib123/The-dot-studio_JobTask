@@ -2,7 +2,7 @@ function card1() {
   const card1Container = document.getElementById("cardOne");
   const img = document.createElement("img");
   img.src =
-    "https://i.postimg.cc/BQ4jBsCs/image1-1.jpg";
+    "https://i.postimg.cc/K8DnFX6f/92093f343d52ef035de6e1beed4d0e39-1.jpg";
   card1Container.appendChild(img);
 }
 card1();

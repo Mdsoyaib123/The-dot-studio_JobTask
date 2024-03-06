@@ -41,9 +41,9 @@ img {
 }
 .cardTitle1 {
   position: absolute;
-  
+
   top: 185px;
-text-align: center;
+  text-align: center;
   backdrop-filter: opacity(10%);
   filter: invert(1);
   background: linear-gradient(to bottom, rgba(3, 3, 3, 0), #fff);
@@ -63,21 +63,20 @@ text-align: center;
   position: relative;
 }
 .cardTitle2 {
-    position: absolute;
-    
-   
-    top: 185px;
+  position: absolute;
+
+  top: 185px;
   text-align: center;
 
-    backdrop-filter: opacity(10%);
-    filter: invert(1);
-    background: linear-gradient(to bottom, rgba(3, 3, 3, 0), #fff);
-  
-    width: 520.45px;
-    height: 145px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  backdrop-filter: opacity(10%);
+  filter: invert(1);
+  background: linear-gradient(to bottom, rgba(3, 3, 3, 0), #fff);
+
+  width: 520.45px;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* card 3 position  */
 #cardThree {
@@ -88,19 +87,19 @@ text-align: center;
   position: relative;
 }
 .cardTitle3 {
-    position: absolute;
-    
-    top: 185px;
+  position: absolute;
+
+  top: 185px;
   text-align: center;
-    backdrop-filter: opacity(10%);
-    filter: invert(1);
-    background: linear-gradient(to bottom, rgba(3, 3, 3, 0), #fff);
-  
-    width: 520.45px;
-    height: 145px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  backdrop-filter: opacity(10%);
+  filter: invert(1);
+  background: linear-gradient(to bottom, rgba(3, 3, 3, 0), #fff);
+
+  width: 520.45px;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* card 4 position  */
 #cardFour {
@@ -111,17 +110,17 @@ text-align: center;
   position: relative;
 }
 .cardTitle4 {
-    position: absolute;
-    
-    top: 185px;
+  position: absolute;
+
+  top: 185px;
   text-align: center;
-    backdrop-filter: opacity(10%);
-    filter: invert(1);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fff);
-  
-    width: 520.45px;
-    height: 145px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  backdrop-filter: opacity(10%);
+  filter: invert(1);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fff);
+
+  width: 520.45px;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
