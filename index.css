@@ -9,7 +9,7 @@ body {
 }
 #CardContainer {
   width: 1070px;
-  height: 808px;
+  height: 708px;
 }
 .title {
   font-size: 48px;
@@ -39,93 +39,101 @@ img {
   align-items: center;
   position: relative;
 }
-.cardTitle1 {
-  position: absolute;
-
-  top: 185px;
-  text-align: center;
-  backdrop-filter: opacity(10%);
-  filter: invert(1);
-  background: linear-gradient(to bottom, rgba(3, 3, 3, 0), #fff);
-
+.card1Title {
   width: 520.45px;
   height: 145px;
+  backdrop-filter: opacity(10%);
+  filter: invert(1);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fff);
+
+  position: absolute;
+
+  top: 202px;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
+}
+.cardTitle1 {
+  text-align: center;
 }
 /* card 2 position */
 #cardTwo {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.cardTitle2 {
-  position: absolute;
-
-  top: 185px;
-  text-align: center;
-
-  backdrop-filter: opacity(10%);
-  filter: invert(1);
-  background: linear-gradient(to bottom, rgba(3, 3, 3, 0), #fff);
-
+.card2Title {
   width: 520.45px;
   height: 145px;
+  backdrop-filter: opacity(10%);
+  filter: invert(1);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fff);
+
+  position: absolute;
+
+  top: 202px;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
+}
+.cardTitle2 {
+  text-align: center;
 }
 /* card 3 position  */
 #cardThree {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+.card3Title {
+  width: 520.45px;
+  height: 145px;
+  backdrop-filter: opacity(10%);
+  filter: invert(1);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fff);
+
+  position: absolute;
+
+  top: 202px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
 }
 .cardTitle3 {
-  position: absolute;
-
-  top: 185px;
   text-align: center;
-  backdrop-filter: opacity(10%);
-  filter: invert(1);
-  background: linear-gradient(to bottom, rgba(3, 3, 3, 0), #fff);
-
-  width: 520.45px;
-  height: 145px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
+
 /* card 4 position  */
 #cardFour {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.card4Title{ 
- 
-}
-.cardTitle4 {
-  
-
+.card4Title {
   width: 520.45px;
   height: 145px;
   backdrop-filter: opacity(10%);
   filter: invert(1);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0),  #fff);
-  
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fff);
+
   position: absolute;
-  top: 185px;
-  text-align: center;
+
+  top: 202px;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
- 
+}
+.cardTitle4 {
+  text-align: center;
+}
+.card4Des {
+  width: 100%;
+  height: 85%;
+  position: absolute;
+}
+.card4Des:hover {
+  display: flex;
 }
