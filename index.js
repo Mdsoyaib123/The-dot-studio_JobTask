@@ -31,11 +31,16 @@ function card4() {
   img.src =
     "https://i.postimg.cc/L6KtdrB0/image4-1.jpg";
   card4Container.appendChild(img);
-
-  const card4Des = document.getElementsByClassName('card4Des')
-  // const div = document.createElement('div')
-  // div.innerHTML = '<h1>Holistic Development </h1><p>Right Mix of Curricular and Co-Curricular Activities.</p>'
-  // card4Des.appendChild(div)
-
 }
 card4();
+
+
+// const card4Des = document.getElementById('cardFour')
+
+// card4Des.addEventListener('mouseover', function() {
+//   card4Des.classList.add('card4Des');
+// });
+
+// card4Des.addEventListener('mouseout', function() {
+//   card4Des.classList.remove('card4Des');
+// });

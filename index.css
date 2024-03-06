@@ -38,6 +38,7 @@ img {
   justify-content: center;
   align-items: center;
   position: relative;
+  text-align: center;
 }
 .card1Title {
   width: 520.45px;
@@ -56,12 +57,31 @@ img {
 .cardTitle1 {
   text-align: center;
 }
+#card1Des {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 87%;
+
+  background-color: rgba(17, 74, 141, 0.8);
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#cardOne:hover #card1Des{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
 /* card 2 position */
 #cardTwo {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  text-align: center;
 }
 .card2Title {
   width: 520.45px;
@@ -80,12 +100,31 @@ img {
 .cardTitle2 {
   text-align: center;
 }
+#card2Des {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 87%;
+
+  background-color: rgba(17, 74, 141, 0.8);
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#cardTwo:hover #card2Des{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
 /* card 3 position  */
 #cardThree {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  text-align: center;
 }
 .card3Title {
   width: 520.45px;
@@ -104,13 +143,31 @@ img {
 .cardTitle3 {
   text-align: center;
 }
+#card3Des {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 87%;
 
+  background-color: rgba(17, 74, 141, 0.8);
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#cardThree:hover #card3Des{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
 /* card 4 position  */
 #cardFour {
   display: grid;
   justify-content: center;
   align-items: center;
   position: relative;
+  text-align: center;
 }
 .card4Title {
   width: 520.45px;
@@ -129,11 +186,25 @@ img {
 .cardTitle4 {
   text-align: center;
 }
-.card4Des {
-  width: 100%;
-  height: 85%;
+#card4Des {
+  display: none;
   position: absolute;
+  width: 100%;
+  height: 87%;
+
+  background-color: rgba(17, 74, 141, 0.8);
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+
 }
-.card4Des:hover {
+#cardFour:hover #card4Des{
+  /* display: block; */
   display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+ 
+ 
 }
