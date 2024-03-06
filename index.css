@@ -109,18 +109,23 @@ img {
   align-items: center;
   position: relative;
 }
+.card4Title{ 
+ 
+}
 .cardTitle4 {
-  position: absolute;
-
-  top: 185px;
-  text-align: center;
-  backdrop-filter: opacity(10%);
-  filter: invert(1);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fff);
+  
 
   width: 520.45px;
   height: 145px;
+  backdrop-filter: opacity(10%);
+  filter: invert(1);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0),  #fff);
+  
+  position: absolute;
+  top: 185px;
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
