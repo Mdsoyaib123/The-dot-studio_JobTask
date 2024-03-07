@@ -1,6 +1,6 @@
-@font-face{
+@font-face {
   font-family: GothamBoldItalic;
-  src: url('./Font/GothamBoldItalic.ttf');
+  src: url("./Font/GothamBoldItalic.ttf");
 }
 * {
   /* max-width: 900px; */
@@ -19,7 +19,6 @@ body {
 .title {
   font-size: 48px;
   text-align: center;
-  
 }
 
 .fristContainer {
@@ -73,13 +72,18 @@ img {
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
+  transition: opacity 0.7s ease-in-out;
 }
-#cardOne:hover #card1Des{
+#cardOne:hover #card1Des {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  animation: fadeIn 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+#card1Des.fade-in {
+  opacity: 1;
 }
 /* card 2 position */
 #cardTwo {
@@ -116,13 +120,18 @@ img {
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
+  transition: opacity 0.7s ease-in-out;
 }
-#cardTwo:hover #card2Des{
+#cardTwo:hover #card2Des {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  animation: fadeIn 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+#card2Des.fade-in {
+  opacity: 1;
 }
 /* card 3 position  */
 #cardThree {
@@ -159,13 +168,18 @@ img {
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
+  transition: opacity 0.7s ease-in-out;
 }
-#cardThree:hover #card3Des{
+#cardThree:hover #card3Des {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  animation: fadeIn 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+#card3Des.fade-in {
+  opacity: 1;
 }
 /* card 4 position  */
 #cardFour {
@@ -191,7 +205,6 @@ img {
 }
 .cardTitle4 {
   text-align: center;
- 
 }
 #card4Des {
   display: none;
@@ -203,70 +216,77 @@ img {
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
-
+  transition: opacity 0.7s ease-in-out;
 }
-#cardFour:hover #card4Des{
+#cardFour:hover #card4Des {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  animation: fadeIn 0.5s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 
 
+#card4Des.fade-in {
+  opacity: 1;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .title {
-    font-size:24px ;
-
+    font-size: 24px;
   }
-  #CardContainer{
+  #CardContainer {
     padding-top: 10px;
     padding-bottom: 20px;
   }
-  .fristContainer{
+  .fristContainer {
     display: flex;
     flex-direction: column;
-
   }
-  .secondContainer{
+  .secondContainer {
     display: flex;
     flex-direction: column;
   }
 }
-
 
 @media only screen and (max-width: 992px) {
-  #CardContainer{
+  #CardContainer {
     padding: 20px;
-    }
+  }
   .title {
-    font-size:32px ;
-   
+    font-size: 32px;
   }
-  .fristContainer{
+  .fristContainer {
     display: flex;
-
   }
-  .secondContainer{
+  .secondContainer {
     display: flex;
   }
 }
 
-
 @media only screen and (min-width: 992px) {
-  #CardContainer{
-  padding: 20px;
+  #CardContainer {
+    padding: 20px;
   }
   .title {
-    font-size:48px ;
+    font-size: 48px;
   }
-  .fristContainer{
+  .fristContainer {
     display: flex;
-
   }
-  .secondContainer{
+  .secondContainer {
     display: flex;
   }
 }
