@@ -1,6 +1,6 @@
 @font-face{
-  font-family: GothamLight;
-  src: url('./Font/GothamLight.ttf');
+  font-family: GothamBoldItalic;
+  src: url('./Font/GothamBoldItalic.ttf');
 }
 * {
   /* max-width: 900px; */
@@ -10,7 +10,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 30px;
-  font-family: GothamLight;
+  font-family: GothamBoldItalic;
 }
 body {
   width: 1070px;
