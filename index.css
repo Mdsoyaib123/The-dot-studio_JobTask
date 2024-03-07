@@ -236,22 +236,7 @@ img {
   transform: scale(1) rotate(0) translateX(0);
 }
 
-/* #card4Des h1,
-#card4Des p {
-  margin: 0;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-} */
-/* 
-#card4Des.fade-in h1 {
-  opacity: 1;
-  transition-delay: 0.2s; 
-} */
 
-/* #card4Des.fade-in p {
-  opacity: 1;
-  transition-delay: 0.2s; 
-} */
 
 
 @keyframes fadeIn {
