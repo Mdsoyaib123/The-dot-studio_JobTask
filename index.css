@@ -12,14 +12,14 @@ body {
   padding-bottom: 30px;
   font-family: GothamLight;
 }
-#CardContainer {
+body {
   width: 1070px;
   height: 708px;
 }
 .title {
   font-size: 48px;
-  font-weight: 800;
   text-align: center;
+  
 }
 
 .fristContainer {
@@ -169,7 +169,7 @@ img {
 }
 /* card 4 position  */
 #cardFour {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -211,4 +211,62 @@ img {
   justify-content: center;
   align-items: center;
  
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size:24px ;
+
+  }
+  #CardContainer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .fristContainer{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .secondContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  #CardContainer{
+    padding: 20px;
+    }
+  .title {
+    font-size:32px ;
+   
+  }
+  .fristContainer{
+    display: flex;
+
+  }
+  .secondContainer{
+    display: flex;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  #CardContainer{
+  padding: 20px;
+  }
+  .title {
+    font-size:48px ;
+  }
+  .fristContainer{
+    display: flex;
+
+  }
+  .secondContainer{
+    display: flex;
+  }
 }
